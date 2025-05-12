@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e1d72b47a09da4ebdb4cfe4f3739b4, type: 3}
+  m_Name: Figures Config
+  m_EditorClassIdentifier: 
+  _figureShapes:
+  - FigureType: 0
+    FigurePrefab: {fileID: 360205415148711290, guid: 26d7ba4209ec8e549b8ef992b709cc6f, type: 3}
+  - FigureType: 1
+    FigurePrefab: {fileID: 6869683446598943262, guid: 37d2425844653bb46a68c90a52b26b8f, type: 3}
+  - FigureType: 2
+    FigurePrefab: {fileID: 2369548815913524873, guid: 637d9fd7def9a2746959c020a0e4b3b2, type: 3}
+  - FigureType: 3
+    FigurePrefab: {fileID: 6526760797255785582, guid: 16d2dd2f810f4b048bdb58d6b34a0990, type: 3}
+  _figureColors:
+  - ColorType: 0
+    Color: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
+  - ColorType: 1
+    Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  - ColorType: 2
+    Color: {r: 0.089711644, g: 0.9056604, b: 0.3018583, a: 1}
+  - ColorType: 3
+    Color: {r: 0.090196095, g: 0.73638535, b: 0.90588236, a: 1}
+  - ColorType: 4
+    Color: {r: 0.6296477, g: 0.090196095, b: 0.90588236, a: 1}
+  _figureCreatures:
+  - CreatureType: 0
+    CreatureSprite: {fileID: 21300000, guid: 58e6aade548bb07469d443538cd01f2d, type: 3}
+  - CreatureType: 1
+    CreatureSprite: {fileID: 21300000, guid: 2a743b9ff67971344a5f757a98b3d9d7, type: 3}
+  - CreatureType: 2
+    CreatureSprite: {fileID: 21300000, guid: 77db6811613f1ab4a85e070daa351419, type: 3}
+  - CreatureType: 3
+    CreatureSprite: {fileID: 21300000, guid: a429c91801ba62743977f7454f88ea8f, type: 3}
+  - CreatureType: 4
+    CreatureSprite: {fileID: 21300000, guid: 3729c6981fcef3d4aa951bb8ee4769db, type: 3}
